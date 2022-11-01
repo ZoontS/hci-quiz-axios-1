@@ -170,6 +170,11 @@ export default defineComponent({
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 h1 {
   font-weight: bold;
 }
@@ -192,6 +197,10 @@ ion-card-title {
 ion-card {
   --background: #F1F0F2;
   --color: #2E2E2E;
+}
+
+ion-title {
+  font-weight: bold;
 }
 
 #container {
