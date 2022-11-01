@@ -1,0 +1,7 @@
+{
+  "name": "hci-project-kolam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
