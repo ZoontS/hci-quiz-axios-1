@@ -13,6 +13,10 @@
         </ion-toolbar>
       </ion-header>
     
+      <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button><span style="font-size: 60px; font-weight:bolder">+</span></ion-fab-button>
+      </ion-fab>
+
       <ion-grid>
         <ion-row>
           <ion-col>
@@ -221,6 +225,10 @@ ion-card {
 
 ion-title {
   font-weight: bold;
+}
+
+ion-fab-button {
+  --background: #6C5ECF;
 }
 
 #container {
