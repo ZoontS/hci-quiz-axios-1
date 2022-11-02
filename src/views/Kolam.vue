@@ -2,8 +2,16 @@
   <ion-page>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Kolam<img style="height: 22px; margin-bottom: -3px; margin-left: 60%;" src="assets/img/kolam/Sorting.svg"><img style="margin-left: 20px;" src="assets/img/kolam/Vector.svg"></ion-title>     
-      </ion-toolbar>
+        <ion-title>Kolam</ion-title>
+        <ion-buttons slot="secondary">
+          <ion-button>
+            <img src="assets/img/kolam/Sorting.svg" alt="">
+          </ion-button>
+          <ion-button>
+            <img src="assets/img/kolam/Vector.svg" alt="">
+          </ion-button>
+        </ion-buttons>
+        </ion-toolbar>
     </ion-header>
     
     <ion-content :fullscreen="true">
@@ -149,7 +157,7 @@
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonButtons } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
@@ -159,7 +167,9 @@ export default defineComponent({
     IonHeader,
     IonPage,
     IonTitle,
-    IonToolbar
+    IonToolbar,
+    IonButton,
+    IonButtons
   }
 });
 </script>
