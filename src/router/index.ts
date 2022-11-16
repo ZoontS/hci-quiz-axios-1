@@ -20,10 +20,14 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/HomePage.vue')
       },
       {
-        path: 'kolam',
-        component: () => import('@/views/Kolam.vue')
+        path: 'ponds',
+        component: () => import('@/views/PondsPage.vue')
       }
     ]
+  },
+  {
+    path: '/form',
+    component: () => import('@/views/RegistrationForm.vue')
   }
 ]
 

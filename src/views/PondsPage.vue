@@ -22,7 +22,7 @@
       </ion-header>
     
       <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-        <ion-fab-button><span style="font-size: 60px; font-weight:bolder">+</span></ion-fab-button>
+        <ion-fab-button href="/form"><span style="font-size: 60px; font-weight:bolder">+</span></ion-fab-button>
       </ion-fab>
 
       <ion-grid>
@@ -161,7 +161,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonBut
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'PageSecond',
+  name: 'PondsPage',
   components: {
     IonContent,
     IonHeader,
@@ -172,6 +172,7 @@ export default defineComponent({
     IonButtons
   }
 });
+
 </script>
 
 <style scoped>

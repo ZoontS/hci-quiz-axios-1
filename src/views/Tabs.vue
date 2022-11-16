@@ -7,7 +7,7 @@
             <img src="assets/img/Home.svg" alt="">
           </ion-tab-button>
             
-          <ion-tab-button tab="kolam" href="/tabs/kolam">
+          <ion-tab-button tab="ponds" href="/tabs/ponds">
             <img src="assets/img/Kolam.svg" alt="">
           </ion-tab-button>
         </ion-tab-bar>
